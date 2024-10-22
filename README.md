@@ -10,3 +10,6 @@ Explanation of shaders (in order of dispatches):
 2. [CalculateWeights](https://github.com/lumixem/SVGF-HLSL-Implementation/blob/main/Shaders/CalculateWeights.hlsl) - Calculates weights to estimate variance for pixels with limited history
 3. [ATrous](https://github.com/lumixem/SVGF-HLSL-Implementation/blob/main/Shaders/ATrous.hlsl) - Filters and smooths noise based on the variance estimations
 4. [Modulate](https://github.com/lumixem/SVGF-HLSL-Implementation/blob/main/Shaders/Modulate.hlsl) - Remodulates albedo and adds emission back in
+
+### Result:
+<img width="1280" alt="level2-noise-denoise" src="https://github.com/user-attachments/assets/16cfa5eb-9194-4015-83a9-d24d9c006c22">
